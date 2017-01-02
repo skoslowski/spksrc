@@ -1,0 +1,6 @@
+lnk:lib/liblz4.so
+lnk:lib/liblz4.so.1
+lib:lib/liblz4.so.1.7.4
+bin:bin/lz4
+bin:bin/unlz4
+

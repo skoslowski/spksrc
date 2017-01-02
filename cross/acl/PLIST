@@ -1,0 +1,5 @@
+lnk:lib/libacl.so
+lnk:lib/libacl.so.1
+lib:lib/libacl.so.1.1.0
+bin:bin/setfacl
+bin:bin/getfacl

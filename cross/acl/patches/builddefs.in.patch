@@ -1,0 +1,11 @@
+--- include/builddefs.in.org	2015-06-30 00:51:02.000000000 +0200
++++ include/builddefs.in	2015-06-30 00:51:21.000000000 +0200
+@@ -80,7 +80,7 @@
+ DEPENDFLAGS = -D__FreeBSD__
+ endif
+ 
+-GCFLAGS = $(OPTIMIZER) $(DEBUG) -funsigned-char -fno-strict-aliasing -Wall \
++GCFLAGS = $(OPTIMIZER) $(DEBUG) -fPIC -funsigned-char -fno-strict-aliasing -Wall \
+ 	  -DVERSION=\"$(PKG_VERSION)\" -DLOCALEDIR=\"$(PKG_LOCALE_DIR)\"  \
+ 	  -DPACKAGE=\"$(PKG_NAME)\" -I$(TOPDIR)/include
+ 
